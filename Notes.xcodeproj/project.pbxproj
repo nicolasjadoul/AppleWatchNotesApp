@@ -13,6 +13,10 @@
 		030BB7332A0FA098002322CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030BB7322A0FA098002322CD /* Assets.xcassets */; };
 		030BB7362A0FA098002322CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030BB7352A0FA098002322CD /* Preview Assets.xcassets */; };
 		030BB7432A0FA23E002322CD /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030BB7422A0FA23E002322CD /* Note.swift */; };
+		03AC258F2A10FC7A005C49CD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC258E2A10FC7A005C49CD /* DetailView.swift */; };
+		03AC25912A110571005C49CD /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC25902A110571005C49CD /* CreditView.swift */; };
+		03AC25932A1105AE005C49CD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC25922A1105AE005C49CD /* HeaderView.swift */; };
+		03AC25952A110638005C49CD /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03AC25942A110638005C49CD /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		030BB7322A0FA098002322CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		030BB7352A0FA098002322CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		030BB7422A0FA23E002322CD /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		03AC258E2A10FC7A005C49CD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		03AC25902A110571005C49CD /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		03AC25922A1105AE005C49CD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		03AC25942A110638005C49CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				030BB7302A0FA093002322CD /* ContentView.swift */,
+				03AC25922A1105AE005C49CD /* HeaderView.swift */,
+				03AC25902A110571005C49CD /* CreditView.swift */,
+				03AC258E2A10FC7A005C49CD /* DetailView.swift */,
+				03AC25942A110638005C49CD /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,9 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03AC25952A110638005C49CD /* SettingsView.swift in Sources */,
 				030BB7312A0FA093002322CD /* ContentView.swift in Sources */,
+				03AC25932A1105AE005C49CD /* HeaderView.swift in Sources */,
+				03AC258F2A10FC7A005C49CD /* DetailView.swift in Sources */,
 				030BB72F2A0FA093002322CD /* NotesApp.swift in Sources */,
 				030BB7432A0FA23E002322CD /* Note.swift in Sources */,
+				03AC25912A110571005C49CD /* CreditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
